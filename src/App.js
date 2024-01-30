@@ -1,4 +1,5 @@
 import LoginSignup from "./components/LoginSignup";
+import UseRefPractise from "./components/UseRefPractise";
 function App() {
   return (
     <>
@@ -6,6 +7,7 @@ function App() {
     <br/>
     <br/>
     <LoginSignup/>
+    <UseRefPractise/>
     </>
   );
 }

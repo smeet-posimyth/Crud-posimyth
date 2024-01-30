@@ -163,10 +163,8 @@ const LoginSignup = () => {
       {/* Table Component Here. */}
 
       <br />
-      <br />
-      <br />
       <hr />
-      <hr/>
+      <hr />
       <br />
       <table>
         <thead>
@@ -186,11 +184,9 @@ const LoginSignup = () => {
                 <td>{item.email}</td>
                 <td>{item.password}</td>
                 <td>
-                  {" "}
                   <button onClick={() => handleDelete(index)}>Delete</button>
                 </td>
                 <td>
-                  {" "}
                   <button onClick={() => handleUpdate(index)}>Update</button>
                 </td>
               </tr>
@@ -198,6 +194,9 @@ const LoginSignup = () => {
           })}
         </tbody>
       </table>
+      <div>
+        
+      </div>
     </div>
   );
 };
